@@ -1,0 +1,26 @@
+{
+    "name": "xitrack",
+    "version": "0.0.0",
+    "packageManager": "pnpm@9.12.0+sha256.a61b67ff6cc97af864564f4442556c22a04f2e5a7714fbee76a1011361d9b726",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite dev",
+        "format": "prettier . --write",
+        "preview": "vite preview",
+        "prepare": "husky"
+    },
+    "devDependencies": {
+        "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+        "@types/react": "^18.3.11",
+        "@types/react-dom": "^18.3.0",
+        "husky": "^9.1.6",
+        "prettier": "^3.3.3",
+        "vite": "^5.4.8"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.13.3",
+        "@emotion/styled": "^11.13.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    }
+}

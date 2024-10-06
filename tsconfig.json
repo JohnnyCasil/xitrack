@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "jsxImportSource": "@emotion/react",
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "removeComments": true,
+        "strict": true,
+        "target": "ES2022"
+    },
+    "include": ["./src"]
+}
